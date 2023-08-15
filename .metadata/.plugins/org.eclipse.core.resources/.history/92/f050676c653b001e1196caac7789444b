@@ -11,6 +11,8 @@ public class User {
 		friends = new ArrayList<>();
 		friends.add("Luiza");
 		friends.add("Rosana");
+		friends.add("Noé");
+		
 		
 	}
 	

@@ -1,7 +1,7 @@
 
 public class Main {
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		User emerson =  new User();
 		emerson.setName("Emerson");
 		emerson.setCPF("050");
@@ -10,11 +10,12 @@ public class Main {
 		for(String friendName : emerson.getFriends()) {
 			System.out.println(friendName);
 		}
+	
 		
 		
 		
 
-	}
+	}*/
 
 }
 
