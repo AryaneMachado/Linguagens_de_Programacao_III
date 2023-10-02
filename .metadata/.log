@@ -2523,3 +2523,8 @@ java.lang.Exception: File not found: C:\Users\12983639690\eclipse-workspace\Exer
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2023-10-02 08:15:16.919
 !MESSAGE The project description file (.project) for 'ProgramaVenda' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2023-10-02 08:20:27.346
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-10-02 08:20:27.346
+!MESSAGE The project description file (.project) for 'ProgramaVenda' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
