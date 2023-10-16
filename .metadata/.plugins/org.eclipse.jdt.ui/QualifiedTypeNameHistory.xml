@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="model.Product"/>
+    <fullyQualifiedTypeName name="model.SaleItem"/>
+    <fullyQualifiedTypeName name="model.Sale"/>
+    <fullyQualifiedTypeName name="model.PaymentMethod"/>
+    <fullyQualifiedTypeName name="model.CreditCard"/>
 </qualifiedTypeNameHistroy>

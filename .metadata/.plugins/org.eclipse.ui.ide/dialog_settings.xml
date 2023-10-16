@@ -13,6 +13,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\12983639690\eclipse-workspace\VendasInformationExpert"/>
+			<item value="C:\Users\12983639690\eclipse-workspace\Exercícios\06 - ProgramaVenda2"/>
 			<item value="C:\Users\12983639690\eclipse-workspace\Exercícios\ProgramaVenda"/>
 		</list>
 	</section>
