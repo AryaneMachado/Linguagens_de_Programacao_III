@@ -1,0 +1,20 @@
+DROP DATABASE IF EXISTS facebook;
+
+CREATE DATABASE IF NOT EXISTS facebook;
+
+USE facebook;
+
+CREATE TABLE IF NOT EXISTS users(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    sexo ENUM('M', 'F'),
+    email VARCHAR(150) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS posts(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    content TEXT NOT NULL,
+    post_date DATE NOT NULL,
+    user_id INT NOT NULL,
+    FOREIGN KEY(user_id) REFERENCES users(id)
+);
