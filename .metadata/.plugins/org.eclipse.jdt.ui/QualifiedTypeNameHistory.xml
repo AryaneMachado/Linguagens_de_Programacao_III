@@ -9,4 +9,6 @@
     <fullyQualifiedTypeName name="model.Sale"/>
     <fullyQualifiedTypeName name="model.PaymentMethod"/>
     <fullyQualifiedTypeName name="model.CreditCard"/>
+    <fullyQualifiedTypeName name="model.User"/>
+    <fullyQualifiedTypeName name="model.dao.UserDAO"/>
 </qualifiedTypeNameHistroy>
