@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Facebook Tabajara</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-icons.css">
 </head>
 <body>
-	<h1>Servidor Rodando</h1>
+
+	<main class="container">
+		<div class="row">
+			<h1 class="col-md-8">Usuários</h1>
+		</div>
+
+		<div class="row">
+			<table class="table table-striped"> <!--Importando tabela do Bootstrap-->
+				<thead> <!--Cabeçalho da tabela-->
+				  <tr>
+					<th scope="col">ID</th> <!--Nome de cada coluna da tabela-->
+					<th scope="col">Nome</th>
+					<th scope="col">Sexo</th>
+					<th scope="col">E-mail</th>
+				  </tr>
+				</thead>
+				<tbody> <!--Junção das linhas da tabela-->
+				  <tr> <!--É cada linha da tabela-->
+					<th scope="row">1</th>
+					<td>Emerson</td>
+					<td>M</td>
+					<td>emerson@carvalho</td>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td>Aryane</td>
+					<td>F</td>
+					<td>aryane@machado</td>
+				  </tr>
+				  <tr>
+					<th scope="row">3</th>
+					<td colspan="2">Maria Eduarda</td>
+					<td>maria@eduarda</td>
+				  </tr>
+				</tbody>
+			  </table>
+		</div>
+	</main>
+	
+
+
+
+	<!--No final do body-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
