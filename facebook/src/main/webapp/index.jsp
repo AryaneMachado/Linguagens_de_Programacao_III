@@ -1,3 +1,6 @@
+<jsp:directive.page contentType="text/html; charset=UTF-8" />
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +18,7 @@
 
 		<div class="row">
 			<table class="table table-striped"> <!--Importando tabela do Bootstrap-->
-				<thead> <!--Cabeçalho da tabela-->
+				<thead> <!--CabeÃ§alho da tabela-->
 				  <tr>
 					<th scope="col">ID</th> <!--Nome de cada coluna da tabela-->
 					<th scope="col">Nome</th>
@@ -23,32 +26,21 @@
 					<th scope="col">E-mail</th>
 				  </tr>
 				</thead>
-				<tbody> <!--Junção das linhas da tabela-->
-				  <tr> <!--É cada linha da tabela-->
-					<th scope="row">1</th>
-					<td>Emerson</td>
-					<td>M</td>
-					<td>emerson@carvalho</td>
+				<tbody> <!--JunÃ§Ã£o das linhas da tabela-->
+					<c:forEach var="user" items="${usuarios}">
+				   <tr>
+					<td>${user.getId()}</td>
+					<td>${user.getName()}</td>
+					<td>${user.getGender()}</td>
+					<td>${user.getEmail()}</td>
 				  </tr>
-				  <tr>
-					<th scope="row">2</th>
-					<td>Aryane</td>
-					<td>F</td>
-					<td>aryane@machado</td>
-				  </tr>
-				  <tr>
-					<th scope="row">3</th>
-					<td colspan="2">Maria Eduarda</td>
-					<td>maria@eduarda</td>
-				  </tr>
+				  </c:forEach>
 				</tbody>
 			  </table>
 		</div>
+		  <a href="form_user.html" class="btn btn-primary">Novo Usuário</a>
 	</main>
 	
-
-
-
 	<!--No final do body-->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
